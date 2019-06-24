@@ -1,3 +1,7 @@
+mod alphabet;
+
+use alphabet::letter_match::letter::eq;
+
 fn main() {
-    println!("Hello, world!");
+	eq("a");
 }
